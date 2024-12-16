@@ -1,0 +1,78 @@
+/* Login.css */
+.login-container {
+  max-width: 400px;  /* Increased max-width for a bigger container */
+  margin: 50px auto;
+  padding: 30px;  /* Added extra padding for a more spacious look */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 32px;  /* Slightly increased font size for a bolder heading */
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 14px;  /* Increased padding for input fields */
+  margin: 12px 0;  /* Increased margin for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 16px;  /* Increased padding for the submit button */
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link p {
+  font-size: 16px;
+}
+
+.signup-link a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
